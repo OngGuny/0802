@@ -20,8 +20,8 @@ public static void main(String[] args) {
 //	}
 //	
 	//시작을 제일 끝방에 맞춰놓고 하나씩 감소하면된다. 
-	for(int i =array.length;i>=0;i--) {
-		System.out.print(array[i]);
+	for(int i =array.length-1;i>=0;i--) { // -1 안해주면 마지막 방 인덱스보다 큰 숫자여서 안나온다. 
+		System.out.print(array[i]+",");
 	}
 }//다시보기 
 }
